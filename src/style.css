@@ -1,0 +1,57 @@
+.box {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	width: 125px;
+	height: 200px;
+	background: #282828;
+	padding: 5px;
+	margin: 5px;
+}
+
+.boxSmall {
+	width: 300px;
+}
+.boxMenu {
+	width: 300px;
+	background: black;
+	height: 100vh;
+	padding: 5px;
+}
+.imgArtist {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 15px;
+	position: relative;
+}
+.img {
+	width: 125px;
+	height: 125px;
+	box-shadow: 2px 2px 15px;
+	position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('./ProximaNovaBold.ttf');
+}
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('./ProximaNovaReg.ttf');
+}
+.title {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 15px;
+	color: white;
+	line-height: 18px;
+	margin: 5px;
+}
+.artist {
+	font-family: 'Proxima Nova Regular';
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+}

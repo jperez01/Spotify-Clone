@@ -1,0 +1,695 @@
+.addToLibrary {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	background-color: #1db954;
+	font-size: 15px;
+	color: white;
+	width: 21.78%;
+	border: 2px solid #1db954;
+	border-radius: 500px;
+	text-align: center;
+	margin: 5% 38%;
+	padding: 8px 0px;
+	cursor: pointer;
+}
+.addToLibrary:active {
+	font-size: 14px;
+	padding: 7px 0px;
+	margin: 6% 38%;
+}
+.addToLibraryRemove {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	background-color: #1db954;
+	font-size: 15px;
+	color: white;
+	width: 29.78%;
+	border: 2px solid #1db954;
+	border-radius: 500px;
+	text-align: center;
+	margin: 5% 35%;
+	padding: 8px 0px;
+	cursor: pointer;
+}
+.addToLibraryRemove:active {
+	font-size: 13px;
+	padding: 7px 0px;
+	margin: 6% 35%;
+}
+.albumImg {
+	height: 50%;
+	width: 100%;
+}
+
+.albumInfo {
+	align-items: center;
+	height: 100%;
+	width: 21.78%;
+	margin-top: 50px;
+}
+
+.albumName {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 28px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	margin: 8px 0px;
+}
+
+.albumSongs {
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 80%;
+}
+.albumArtist {
+	font-family: 'Proxima Nova Regular';
+	font-size: 13px;
+	color: #9f9f9f;
+	text-align: center;
+	line-height: 18px;
+	margin: 0px;
+}
+
+.albumCircle {
+	display: none;
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	width: 64px;
+	height: 64px;
+	background: transparent;
+	border: 1.25px solid #C1B9B6;
+	border-radius: 500px;
+}
+
+.albumContent {
+	margin-left: 28px;
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+}
+
+.albumPlaybutton {
+	display: none;
+    position: absolute;
+    pointer-events: auto;
+    top: 44%;
+    left: 45%;
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent #fff;
+}
+.albumPage {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 32px;
+	height: 100%;
+}
+
+.albumRow {
+	margin: 0px 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.artist {
+	font-family: 'Proxima Nova Regular';
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+}
+
+.artistAlbum {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	width: 162.5px;
+	height: 200px;
+	padding: 10px;
+	margin: 8px;
+}
+.artistPageImg {
+	padding: 20px 32px;
+	border-radius: 50%;
+	height: 25vh;
+	width: 25vh;
+}
+
+.artistHeader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.artistimg {
+	width: 162.5px;
+	height: 162.5px;
+	box-shadow: 2px 2px 15px;
+	position: relative;
+}
+
+.artistimg:hover {
+	filter: brightness(50%);
+}
+
+.artistSongs {
+	max-width: 1955px;
+	padding: 0px 32px;
+}
+
+.artistSection {
+	padding: 0px 32px;
+}
+
+.artistSong {
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	transition: background .2s ease-in-out;
+}
+.artistSong:hover {
+	background: #282828;
+}
+.artistSong:hover .smallPlayButton {
+	display: block;
+}
+.artistSong:hover .smallPlayButtonChanged {
+	display: block;
+}
+
+.artistTracks {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 36px;
+	color: white;
+	margin-bottom: 2px;
+	margin-top: 10px;
+}
+.box {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	width: 125px;
+	height: 200px;
+	background: #282828;
+	padding: 25px;
+	margin: 8px;
+}
+.boxSmall {
+	width: 240px;
+}
+
+.boxMenu {
+	width: 230px;
+	background: black;
+	height: 85vh;
+	vertical-align: left;
+	padding: 5px;
+	padding-top: 24px;
+}
+
+.button {
+	align-items: center;
+	border-radius: 5px;
+	height: 40px;
+	width: 215px;
+	padding-left: 16px;
+	display: flex;
+	flex-direction: row;
+}
+
+.circle {
+	display: none;
+	position: absolute;
+	left: 31.51685%;
+	top: 31.51685%;
+	width: 64px;
+	height: 64px;
+	background: transparent;
+	border: 2px solid #C1B9B6;
+	border-radius: 500px;
+}
+.copyright {
+	font-family: 'Proxima Nova Regular';
+	font-size: 14px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+	margin-left: 68px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+}
+
+.follow {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	background-color: transparent;
+	font-size: 15px;
+	color: white;
+	line-height: 18px;
+	margin: 0px 15px 0px 0px;
+	padding: 8px 34px;
+	border: 2px solid #fff;
+	border-radius: 500px;
+}
+
+.follow:active {
+	width: 130px;
+	height: 37px;
+}
+
+#header {
+	font-size: 18px;
+	font-family: 'Proxima Nova Bold','Montserrat';
+	color: #838383;
+	line-height: 18px;
+	text-decoration: none;
+	margin: 0px;
+	margin-left: 16px;
+	transition: color .1s ease-in-out;
+}
+
+#headerSearch {
+	font-size: 18px;
+	font-family: 'Proxima Nova Bold','Montserrat';
+	color: #838383;
+	line-height: 18px;
+	text-decoration: none;
+	margin: 0px;
+	margin-left: 16px;
+	transition: color .1s ease-in-out;
+}
+
+#header:hover {
+	color: white;
+}
+
+.innerList {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.imgArtist {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 15px;
+	position: relative;
+}
+.img {
+	width: 125px;
+	height: 125px;
+	box-shadow: 2px 2px 15px;
+	position: relative;
+}
+
+.link {
+	color: transparent;
+	background: transparent;
+}
+
+.list {
+	padding: 0px;
+}
+
+.listTitle {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 36px;
+	color: white;
+	margin-bottom: 2px;
+	margin-top: 10px;
+	margin-left: 52px;
+}
+
+.logo {
+	width: 130px;
+	height: 45px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.login {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	background-color: #1db954;
+	font-size: 15px;
+	color: white;
+	width: 25%;
+	border: 2px solid #1db954;
+	border-radius: 500px;
+	text-align: center;
+	margin: 2% 30%;
+	padding: 8px 0px;
+	cursor: pointer;
+}
+
+.playbutton {
+	display: none;
+    position: absolute;
+    pointer-events: auto;
+    top: 40%;
+    left: 42%;
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.playlistContent {
+	margin-left: 28px;
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+
+.Playerrow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.playlistSongTime {
+	font-family: 'Proxima Nova Regular';
+	font-size: 14px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+	margin-left: 40%;
+}
+
+.profile {
+	vertical-align: right;
+}
+
+.progressBar { 
+  width: 100%; 
+  height: 3px; 
+  background-color: gray; 
+  text-align: center; 
+  line-height: 32px; 
+  color: black;
+}
+
+#query {
+	width: 264px;
+	height: 28px;
+	border: none;
+	padding-left: 10px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.repeat {
+	height: 20px;
+	padding-top: 6px;
+	margin: 0px 10px;
+}
+.repeat2 {
+	display: none;
+}
+.repeat:hover .repeat1 {
+	display:none;
+}
+
+.repeat:hover .repeat2 {
+	display: block;
+}
+
+.searchBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: white;
+	margin-top: 10px;
+	padding: 6px 20px;
+	width: 300px;
+	height: 30px;
+	border-radius: 500px;
+}
+.searchIcon {
+	background: white;
+}
+.song {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+#seeAll {
+	font-size: 18px;
+	font-family: 'Proxima Nova Bold','Montserrat';
+	color: #838383;
+	line-height: 18px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 16px;
+	transition: color .1s ease-in-out;
+}
+
+.smallPlayButtonChanged {
+	display: none;
+    position:absolute;
+    align-self: center;
+    pointer-events: auto;
+    border-style: solid;
+    margin-left: 5px;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #1db954;
+}
+
+.smallPlayButton {
+	display: none;
+    position:absolute;
+    align-self: center;
+    pointer-events: auto;
+    border-style: solid;
+    margin-left: 5px;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.songTime {
+	font-family: 'Proxima Nova Regular';
+	font-size: 14px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+	margin-left: 85%;
+}
+
+.stack {
+	position: relative;
+	cursor: pointer;
+}
+.stack:hover .artistimg {
+	filter: brightness(50%);
+}
+.stack:hover .albumImg {
+	filter: brightness(50%);
+}
+.stack:hover .playbutton {
+	display: block;
+}
+.stack:hover .albumPlaybutton {
+	display: block;
+}
+
+.stack:hover .circle {
+	display: block;
+}
+.stack:hover .albumCircle {
+	display: block;
+}
+.stack:active .artistimg {
+	margin: 2.5px 2.5px;
+	width: 158px;
+	height: 158px;
+}
+
+.stack:active .albumImg {
+	margin: 1% 1%;
+	width: 98%;
+	height: 98%;
+}
+
+.stack:active .albumCircle {
+	left: 40.51685%;
+	top: 40.51685%;
+	width: 60px;
+	height: 60px;
+}
+.stack:active .albumPlaybutton {
+	border-width: 18px 0 18px 38px;
+	top: 44.5%;
+	left: 45%;
+}
+.stack:active .playbutton {
+	border-width: 18px 0 18px 37px;
+	top: 42%;
+	left: 43%;
+}
+.stack:active .circle {
+	left: 33.51685%;
+	top: 33.51685%;
+	width: 60px;
+	height: 60px;
+}
+.song:hover {
+	background: #282828;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('./ProximaNovaBold.ttf');
+}
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('./ProximaNovaReg.ttf');
+}
+
+.albumSongTitle {
+	font-family: 'Proxima Nova Regular','Montserrat';
+	font-size: 16px;
+	color: white;
+	line-height: 18px;
+	margin: 5px;
+	width: 200px;
+}
+.albumSongArtist {
+	font-family: 'Proxima Nova Regular';
+	font-size: 14px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+}
+.title {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 15px;
+	color: white;
+	line-height: 18px;
+	margin: 5px;
+}
+
+.totalTracks {
+	font-family: 'Proxima Nova Regular';
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+	margin-left: 42%;
+}
+.description {
+	font-family: 'Proxima Nova Regular';
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+	text-align: center;
+}
+
+.playerArtistInfo {
+	font-family: 'Proxima Nova Bold';
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 18px;
+	margin: 5px;
+}
+.playerBase {
+	width: 100%;
+	height: 112px;
+	background: #282828;
+}
+
+.playerTitle {
+	font-family: 'Proxima Nova Bold','Montserrat';
+	font-size: 15px;
+	color: white;
+	line-height: 18px;
+	margin: 5px;
+}
+
+.playerRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 33%;
+	margin: 8px 8px;
+}
+.playerActions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33%;
+}
+
+.playerButton {
+	height: 20px;
+	margin: 0px 10px;
+}
+.playerButton2 {
+	display: none;
+}
+.playerButton:hover .playerButton1 {
+	display:none;
+}
+
+.playerButton:hover .playerButton2 {
+	display: block;
+}
+
+.playerBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	margin: 8px 8px;
+}
+
+.playerPlay {
+	height: 30px;
+	margin: 0px 10px;
+}
+.playerPlayButton2 {
+	display:none;
+}
+
+.playerPlay:hover {
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-left: 7px;
+}
+.playerPlay:hover .repeat1 {
+	display:none;
+}
+
+.playerPlay:hover .playerPlayButton2 {
+	display: block;
+}
+
+.playerActionRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 8px 8px;
+}
+
+#upperProgress { 
+  width: 100%; 
+  height: 3px; 
+  background-color: green; 
+  text-align: center; 
+  line-height: 32px; 
+  color: black;
+} 
