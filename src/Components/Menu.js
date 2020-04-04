@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import queryString from 'query-string';
 import NavLink from 'react-router-dom/NavLink';
+import Amplify, { Analytics, Storage, API } from 'aws-amplify';
 import './style.css';
 
 class Menu extends Component {
@@ -34,6 +35,7 @@ class Menu extends Component {
 
 	handleClick() {
 		window.location = 'https://master.d25k9rbpw5dq0c.amplifyapp.com/login';
+		const response = await API.get('music', '/login');
 	}
 
 	handleHome() {
