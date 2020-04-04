@@ -33,7 +33,7 @@ class Menu extends Component {
 	}
 
 	handleClick() {
-		window.location = 'http://localhost:8888/login';
+		window.location = 'https://master.d25k9rbpw5dq0c.amplifyapp.com/login';
 	}
 
 	handleHome() {
