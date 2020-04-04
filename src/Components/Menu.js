@@ -34,8 +34,7 @@ class Menu extends Component {
 	}
 
 	handleClick() {
-		window.location = 'https://master.d25k9rbpw5dq0c.amplifyapp.com/login';
-		const response = API.get('music', '/items');
+		const response = API.get('spotify', '/login');
 	}
 
 	handleHome() {
