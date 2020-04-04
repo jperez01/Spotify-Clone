@@ -35,7 +35,7 @@ class Menu extends Component {
 
 	handleClick() {
 		window.location = 'https://master.d25k9rbpw5dq0c.amplifyapp.com/login';
-		const response = await API.get('music', '/login');
+		const response = API.get('music', '/login');
 	}
 
 	handleHome() {
